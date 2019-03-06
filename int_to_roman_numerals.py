@@ -33,7 +33,7 @@ class IntToRomans:
         #To check the input number, it should be greater than 0 and less than 3999 based on the rule of Roman Numerals. 
         # and also type of number should be int.
         try:
-            if n <= 0 or n > 3999 and type(n) != int and type(n) == float:
+            if n <= 0 or n > 3999 and type(n) != int:
                 print(n,'Does not have the Roman Numerals, Please provide a integer number between 1 to 3999')
         
         # Exception handling for input type.
