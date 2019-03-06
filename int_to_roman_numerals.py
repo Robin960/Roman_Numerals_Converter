@@ -59,9 +59,9 @@ class IntToRomans:
 #creation of class object
 itr = IntToRomans()    
 
-#Please pass your input here, the default input is 2:
+#Please change your input value here, the default input value of n is 2:
 n = 2
 
-#Calling a int_to_romans() function with parameter inside the print() function, to see the ouput on console.
+#Calling a int_to_romans() function with parameter inside the print() function, to see the output on console.
 #If there is no output value based on your then print() will return None.
 print(itr.int_to_romans(n))
