@@ -60,7 +60,7 @@ class IntToRomans:
 itr = IntToRomans()    
 
 #Please pass your input here, the default input is 2:
-n = 1000
+n = 2
 
 #Calling a int_to_romans() function with parameter inside the print() function, to see the ouput on console.
 #If there is no output value based on your then print() will return None.
